@@ -11,6 +11,10 @@
 	margin: 1rem 0;
 }
 
+.hidden {
+	display: none;
+}
+
 label {
 	width: 120px;
 	display: inline-block;
