@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <form className="form box-shadow" method="post" name="contact"
       data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
       <div className="form-group">
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required placeholder="John Doe" />
