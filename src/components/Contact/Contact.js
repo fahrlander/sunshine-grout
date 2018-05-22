@@ -3,8 +3,8 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <form className="form box-shadow" name="contact"
-      netlify="true" action="success" method="POST">
+    <form className="form box-shadow" method="post" name="contact"
+      data-netlify="true">
       <div className="form-group">
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required placeholder="John Doe" />
