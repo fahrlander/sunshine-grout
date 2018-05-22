@@ -8,23 +8,23 @@ const Contact = () => {
       <input type="hidden" name="form-name" value="contact" />
       <div className="form-group">
         <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required placeholder="John Doe" />
+        <input name="name" type="text" id="name" required placeholder="John Doe" />
       </div>
 
       <div className="form-group">
         <label htmlFor="email">E-mail:</label>
-        <input
+        <input name="email"
           type="email" id="email" required placeholder="example@email.com" />
       </div>
 
       <div className="form-group">
         <label htmlFor="phone">Phone:</label>
-        <input type="tel" id="phone" required placeholder="555-555-5555" />
+        <input name="tel" type="tel" id="phone" required placeholder="555-555-5555" />
       </div>
 
       <div className="form-group">
         <label htmlFor="message">Message:</label>
-        <textarea id="message" required placeholder="Type your message..." />
+        <textarea name="message" id="message" required placeholder="Type your message..." />
       </div>
 
       <div className="form-group">
