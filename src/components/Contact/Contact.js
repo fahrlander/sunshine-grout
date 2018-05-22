@@ -4,7 +4,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <form className="form box-shadow" name="contact"
-      netlify="true">
+      netlify="true" action="success" method="POST">
       <div className="form-group">
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" required placeholder="John Doe" />
@@ -25,7 +25,7 @@ const Contact = () => {
         <label htmlFor="message">Message:</label>
         <textarea id="message" required placeholder="Type your message..." />
       </div>
-      
+
       <div className="form-group">
         <button className="pull-right btn btn-primary" type="submit">
           Submit
