@@ -1,0 +1,100 @@
+/* --------- Globals --------- */
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+/* --------- Layout ---------- */
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1.25;
+}
+
+.footer {
+  margin-top: 12.5rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.social a {
+  color: #333;
+  display: inline-block;
+  font-size: 1.75rem;
+  margin-bottom: 2.5rem;
+  transition: all 250ms;
+}
+
+.social a:hover {
+  color: #03A0E2;
+}
+
+/* ----- Utility Classes ----- */
+
+.btn {
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  font-size: 1.15rem;
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  transition: all 250ms;
+}
+
+.btn-primary {
+  background: #03A0E2;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background: #2096C8;
+}
+
+.pull-left {
+	margin-right: auto;
+}
+
+.pull-right {
+	margin-left: auto;
+}
+
+.highlight {
+  color: #03A0E2;
+}
+
+.img-res {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.box-shadow { 
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 768px) {
+
+  /* --------- Layout ---------- */
+
+  .row {
+    flex-direction: column;
+  }
+  .col:last-of-type {
+    margin: 1.5rem 0;
+  }
+}
+
+

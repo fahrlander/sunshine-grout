@@ -1,0 +1,27 @@
+.Header {
+  background:
+    url('../../static/img/landing.jpg')
+    center 0 / cover no-repeat;
+  padding: 10rem 3rem 7.5rem;
+  text-align: center;
+}
+
+.Header-title {
+  color: #FFF;
+  font-weight: normal;
+  line-height: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.pad-left {
+  margin-left: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    padding: 7.5rem 3rem 5rem;
+  }
+  .Header-title {
+    font-size: 1.75rem;
+  }
+}

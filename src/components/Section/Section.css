@@ -1,0 +1,49 @@
+.Section {
+  min-height: 250px;
+  padding: 3rem;
+}
+
+.Section-wrapper {
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.Section-theme-dark {
+  background: #1A1A1F;
+  color: #B3B3B3;
+  text-align: justify;
+  text-justify: newspaper;
+}
+
+.Section .title {
+  color: #333;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.Section .subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin: -0.5rem 0 3rem;
+  text-align: center;
+}
+
+.Section-theme-dark .title {
+  color: #FFF;
+}
+
+[class*="gallery"] {
+  margin-bottom: 2.5rem;
+}
+
+.services {
+  list-style: square;
+  padding-left:3.5rem;
+}
+
+@media (max-width: 768px) {
+  .Section {
+    padding: 1.5rem;
+  }
+}

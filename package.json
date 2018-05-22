@@ -1,0 +1,36 @@
+{
+  "name": "sunshine-grout",
+  "description": "Sunshine Grout Web",
+  "version": "1.0.0",
+  "author": "Ricardo De la Fuente",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "format": "prettier --write 'src/**/*.js'",
+    "start": "gatsby develop",
+    "test": "echo \"Error: no test\" && exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "^0.0.20",
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-netlify-cms": "^2.0.1",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "netlify-cms": "^1.8.0",
+    "react-helmet": "^5.2.0",
+    "react-images": "^0.5.17",
+    "react-photo-gallery": "^6.0.25",
+    "react-scroll": "^1.7.9",
+    "typeface-open-sans": "^0.0.54"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
+  }
+}
