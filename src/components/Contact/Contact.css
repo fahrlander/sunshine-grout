@@ -15,12 +15,21 @@
 	display: none;
 }
 
+.tel {
+	text-align: center;
+	color: #666;
+	padding-top: 2rem;
+	border-top: 1px solid #CCC;
+	margin-top: 2rem;
+}
+
 label {
 	width: 120px;
 	display: inline-block;
 	text-align: right;
 	padding-right: 1rem;
 	color: #333;
+
 }
 
 input, textarea {
@@ -41,12 +50,16 @@ textarea:active, textarea:focus {
 	border: 1px solid #03A0E2;
 }
 
+.hidden {
+	display: none
+}
+
 ::placeholder {
 	color: #A0A0A5;
 	font-weight: lighter;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.form {
 		padding: 1.5rem;
 	}

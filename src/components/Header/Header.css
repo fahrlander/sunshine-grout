@@ -2,7 +2,7 @@
   background:
     url('../../static/img/landing.jpg')
     center 0 / cover no-repeat;
-  padding: 10rem 3rem 7.5rem;
+  padding: 12rem 3rem 10rem;
   text-align: center;
 }
 
@@ -17,7 +17,7 @@
   margin-left: 0.75rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .Header {
     padding: 7.5rem 3rem 5rem;
   }

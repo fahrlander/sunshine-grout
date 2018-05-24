@@ -3,7 +3,6 @@ module.exports = {
     title: 'Sunshine Grout',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-react-helmet'
   ],
 };

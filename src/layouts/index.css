@@ -85,7 +85,7 @@ body {
   box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   /* --------- Layout ---------- */
 
@@ -95,6 +95,15 @@ body {
   .col:last-of-type {
     margin: 1.5rem 0;
   }
+
+  .mobile-hidden {
+    display: none;
+  }
 }
 
+@media screen and (min-width: 768px) {
+  a[href^='tel:'] {
+    display: none;
+  }
+}
 

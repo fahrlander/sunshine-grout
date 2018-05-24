@@ -10,25 +10,9 @@ import '@fortawesome/fontawesome-free-brands';
 import Header from '../components/Header';
 import Section from '../components/Section';
 import Contact from '../components/Contact';
-import Gallery from 'react-photo-gallery';
+import Gallery from '../components/Gallery';
 
-import img01 from '../static/img/img01.jpg';
-import img02 from '../static/img/img02.jpg';
-import img03 from '../static/img/img03.jpg';
-import img04 from '../static/img/img04.jpg';
-import img05 from '../static/img/img05.jpg';
-import img06 from '../static/img/img06.jpg';
 import services from '../static/img/services.jpg';
-
-const PHOTO_SET = [
-  { src: img01, width: 3, height: 4 },
-  { src: img02, width: 1.5, height: 1 },
-  { src: img03, width: 1.5, height: 1 },
-  { src: img04, width: 1.5, height: 1 },
-  { src: img05, width: 3, height: 4 },
-  { src: img06, width: 1.5, height: 1 }
-];
-
 
 const Layout = () => (
   <div>
@@ -73,7 +57,7 @@ const Layout = () => (
     <Section id="gallery">
       <h2 className="title">Gallery</h2>
       <h3 className="subtitle">Check out some of our latest projects</h3>
-      <Gallery photos={PHOTO_SET} />
+      <Gallery />
     </Section>
 
     <Section id="contact" theme="dark">

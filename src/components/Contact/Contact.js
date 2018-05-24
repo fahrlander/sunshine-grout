@@ -4,8 +4,14 @@ import './Contact.css';
 const Contact = () => {
   return (
     <form className="form box-shadow" method="post" name="contact"
-      data-netlify="true">
+      data-netlify="true" netlify-honeypot="bot-field">
+
       <input type="hidden" name="form-name" value="contact" />
+
+      <p className="hidden">
+        <label>Don’t fill this out:<input name="bot-field" /></label>
+      </p>
+
       <div className="form-group">
         <label htmlFor="name">Name:</label>
         <input name="name" type="text" id="name" required placeholder="John Doe" />
@@ -27,10 +33,15 @@ const Contact = () => {
         <textarea name="message" id="message" required placeholder="Type your message..." />
       </div>
 
+      <div data-netlify-recaptcha></div>
+
       <div className="form-group">
         <button className="pull-right btn btn-primary" type="submit">
           Submit
         </button>
+      </div>
+      <div className="tel">
+        Or call us at: <span className="highlight">+1 (208) 880-4107</span>
       </div>
     </form>
   );
