@@ -39,7 +39,7 @@ const Contact = () => {
         </button>
       </div>
       <div className="tel">
-        Or call us at: <span className="highlight">+1 (208) 880-4107</span>
+        Or call us at: <span className="highlight">+1 (281) 606-9918</span>
       </div>
     </form>
   );
