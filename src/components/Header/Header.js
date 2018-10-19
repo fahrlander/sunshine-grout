@@ -38,7 +38,7 @@ class Header extends Component {
           Your one stop shop for tile &amp; grout
     </h1>
 
-        <a href="tel:+12088804107" className="btn btn-primary">
+        <a href="tel:+12816069918" className="btn btn-primary">
           <FontAwesomeIcon icon="phone" flip="horizontal" />
           <span className="pad-left">Give us a call</span>
         </a>
