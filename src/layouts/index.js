@@ -52,6 +52,33 @@ const Layout = () => (
         professional manner. I have had many years of experience with new
         construction, and love helping home owners freshen up their homes.
       </p>
+
+      <div className="badges">
+        <div className="box-shadow badge">
+          <a href="http://www.homeadvisor.com/c.Flooring-Carpet.Houston.TX.-12032.html#spid=60618059">
+            <img className="img-res"
+              alt="Sunrise Grout, LLC - Excellent Customer Service"
+              src="http://www.homeadvisor.com/images/sp-badges/elite-solid-border.png?sp=60618059&key=e94a193ea616ff33d4377642b1df1a49"
+            />
+          </a>
+        </div>
+        <div className="box-shadow badge">
+          <a href="http://www.homeadvisor.com/rated.SunriseGroutLLC.60618059.html">
+            <img className="img-res"
+              alt="Screened & Approved by HomeAdvisor"
+              src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=60618059&key=e94a193ea616ff33d4377642b1df1a49"
+            />
+          </a>
+        </div>
+        <div className="box-shadow badge">
+          <a href="http://www.homeadvisor.com/c.Flooring-Carpet.Houston.TX.-12032.html#spid=60618059">
+            <img className="img-res"
+              alt="Sunrise Grout, LLC is a HomeAdvisor Top Rated Pro"
+              src="http://www.homeadvisor.com/images/sp-badges/toprated-solid-border.png?sp=60618059&key=e94a193ea616ff33d4377642b1df1a49"
+            />
+          </a>
+        </div>
+      </div>
     </Section>
 
     <Section id="gallery">

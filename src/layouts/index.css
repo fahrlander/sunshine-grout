@@ -39,7 +39,37 @@ body {
 }
 
 .social a:hover {
-  color: #03A0E2;
+  color: #03a0e2;
+}
+
+/* --------- Badges ---------- */
+
+.badges {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 -7.5rem;
+}
+
+.badge {
+  width: 125px;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.badge:nth-child(2) {
+  position: relative;
+  top: -1.5rem;
+}
+
+.badge:not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+#gallery {
+  margin-top: 5rem;
 }
 
 /* ----- Utility Classes ----- */
@@ -56,24 +86,24 @@ body {
 }
 
 .btn-primary {
-  background: #03A0E2;
+  background: #03a0e2;
 }
 
 .btn-primary:hover,
 .btn-primary:active {
-  background: #2096C8;
+  background: #2096c8;
 }
 
 .pull-left {
-	margin-right: auto;
+  margin-right: auto;
 }
 
 .pull-right {
-	margin-left: auto;
+  margin-left: auto;
 }
 
 .highlight {
-  color: #03A0E2;
+  color: #03a0e2;
 }
 
 .img-res {
@@ -81,12 +111,11 @@ body {
   max-height: 100%;
 }
 
-.box-shadow { 
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+.box-shadow {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 767px) {
-
   /* --------- Layout ---------- */
 
   .row {
@@ -99,6 +128,14 @@ body {
   .mobile-hidden {
     display: none;
   }
+
+  .badges {
+    margin: 5rem 0 -5rem;
+  }
+  
+  .badge:not(:last-child) {
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -106,4 +143,3 @@ body {
     display: none;
   }
 }
-
